@@ -1,6 +1,7 @@
 import 'package:dialogdemo/demoalert.dart';
 import 'package:dialogdemo/demoalertdialog.dart';
 import 'package:dialogdemo/democupertinoalert.dart';
+import 'package:dialogdemo/demopicalert.dart';
 import 'package:dialogdemo/ringtone.dart';
 import 'package:flutter/material.dart';
 
@@ -47,6 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ringtoneDemo(),
         democupertino(),
         Resetting(),
+        DemoSetBackup(),
       ],
 
     ));
